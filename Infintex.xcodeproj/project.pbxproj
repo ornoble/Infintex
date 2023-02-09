@@ -16,6 +16,15 @@
 		686BF549299556DF00FC3D24 /* InfintexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF548299556DF00FC3D24 /* InfintexTests.swift */; };
 		686BF553299556DF00FC3D24 /* InfintexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF552299556DF00FC3D24 /* InfintexUITests.swift */; };
 		686BF555299556DF00FC3D24 /* InfintexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF554299556DF00FC3D24 /* InfintexUITestsLaunchTests.swift */; };
+		686BF562299559E300FC3D24 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF561299559E300FC3D24 /* NewViewController.swift */; };
+		686BF56429955A1400FC3D24 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF56329955A1400FC3D24 /* SecondViewController.swift */; };
+		686BF56629955A4600FC3D24 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF56529955A4600FC3D24 /* ThirdViewController.swift */; };
+		686BF5682995663E00FC3D24 /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF5672995663E00FC3D24 /* UpdatesViewController.swift */; };
+		686BF56A2995666600FC3D24 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF5692995666600FC3D24 /* LogViewController.swift */; };
+		686BF56C2995668400FC3D24 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF56B2995668400FC3D24 /* JournalViewController.swift */; };
+		686BF56E299566A100FC3D24 /* WarmupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF56D299566A100FC3D24 /* WarmupsViewController.swift */; };
+		686BF570299566C000FC3D24 /* DesiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF56F299566C000FC3D24 /* DesiredViewController.swift */; };
+		686BF5722995687100FC3D24 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF5712995687100FC3D24 /* HelpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		686BF54E299556DF00FC3D24 /* InfintexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfintexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		686BF552299556DF00FC3D24 /* InfintexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfintexUITests.swift; sourceTree = "<group>"; };
 		686BF554299556DF00FC3D24 /* InfintexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfintexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		686BF561299559E300FC3D24 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		686BF56329955A1400FC3D24 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		686BF56529955A4600FC3D24 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		686BF5672995663E00FC3D24 /* UpdatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesViewController.swift; sourceTree = "<group>"; };
+		686BF5692995666600FC3D24 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		686BF56B2995668400FC3D24 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		686BF56D299566A100FC3D24 /* WarmupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmupsViewController.swift; sourceTree = "<group>"; };
+		686BF56F299566C000FC3D24 /* DesiredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiredViewController.swift; sourceTree = "<group>"; };
+		686BF5712995687100FC3D24 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,15 @@
 		686BF525299556DC00FC3D24 = {
 			isa = PBXGroup;
 			children = (
+				686BF5712995687100FC3D24 /* HelpViewController.swift */,
+				686BF56F299566C000FC3D24 /* DesiredViewController.swift */,
+				686BF56D299566A100FC3D24 /* WarmupsViewController.swift */,
+				686BF56B2995668400FC3D24 /* JournalViewController.swift */,
+				686BF5692995666600FC3D24 /* LogViewController.swift */,
+				686BF5672995663E00FC3D24 /* UpdatesViewController.swift */,
+				686BF56529955A4600FC3D24 /* ThirdViewController.swift */,
+				686BF56329955A1400FC3D24 /* SecondViewController.swift */,
+				686BF561299559E300FC3D24 /* NewViewController.swift */,
 				686BF530299556DC00FC3D24 /* Infintex */,
 				686BF547299556DF00FC3D24 /* InfintexTests */,
 				686BF551299556DF00FC3D24 /* InfintexUITests */,
@@ -259,8 +286,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				686BF536299556DC00FC3D24 /* ViewController.swift in Sources */,
+				686BF570299566C000FC3D24 /* DesiredViewController.swift in Sources */,
+				686BF56C2995668400FC3D24 /* JournalViewController.swift in Sources */,
 				686BF532299556DC00FC3D24 /* AppDelegate.swift in Sources */,
+				686BF5682995663E00FC3D24 /* UpdatesViewController.swift in Sources */,
+				686BF56E299566A100FC3D24 /* WarmupsViewController.swift in Sources */,
+				686BF56A2995666600FC3D24 /* LogViewController.swift in Sources */,
+				686BF5722995687100FC3D24 /* HelpViewController.swift in Sources */,
 				686BF534299556DC00FC3D24 /* SceneDelegate.swift in Sources */,
+				686BF56429955A1400FC3D24 /* SecondViewController.swift in Sources */,
+				686BF56629955A4600FC3D24 /* ThirdViewController.swift in Sources */,
+				686BF562299559E300FC3D24 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
